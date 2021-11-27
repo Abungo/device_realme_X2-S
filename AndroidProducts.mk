@@ -14,5 +14,16 @@
 # limitations under the License.
 #
 
+ 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_X2.mk
+    $(LOCAL_DIR)/aosp_X2.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    aosp_X2-user \
+    aosp_X2-userdebug \
+    aosp_X2-eng
+
+
+
+IS_PHONE := true
